@@ -2,7 +2,7 @@
 
 ASCIICam is a real-time, browser-based camera application that converts your webcam feed into authentic ASCII art entirely on the client side. No video is ever sent to a server.
 
-The application captures live camera data via `getUserMedia`, mathematically maps pixel luminance to standard ASCII character ramps (`@#S%?*+;:,. `), and renders out the frames flawlessly to your screen. It features a modern, premium glassmorphic UI overlay on top of the immersive fullscreen terminal output.
+The application captures live camera data via `getUserMedia`, mathematically maps pixel luminance to an advanced 70-tier ASCII shading ramp (from solid `$`/`@` down to ` ` empty space), and renders out the frames flawlessly to your screen. It features a modern, premium glassmorphic UI overlay on top of the immersive fullscreen terminal output.
 
 ![ASCIICam Display](asciicam-demo.png) *(Preview of the immersive application interface)*
 
@@ -13,7 +13,7 @@ The application captures live camera data via `getUserMedia`, mathematically map
   - `Terminal`: Classic green (`#00ff41`) on a deep black background.
   - `Classic`: High contrast bright white on black.
   - `Color`: Advanced per-character RGB sampling right from the local camera feed.
-- **Dynamic Density Slider**: Adjust camera frame grid mapping from blocky 40 columns to a highly detailed 200 character wide column density, with automatic 16:9 vertical scale correction.
+- **Dynamic Density Slider**: Adjust camera frame grid mapping from blocky 60 columns to an extreme 250-character wide column density, with automatic aspect ratio scale correction enforcing edge-to-edge viewports.
 - **Mirror Output**: Toggle character flipping and mirroring. 
 - **Download Media**: Save your current ASCII frame as raw `.txt` log format, or export the currently rendered grid directly as an image (`.png`).
 - **Premium Glassmorphic UI**: Floating control map using intense CSS backdrop filters and responsive UI scaling.
