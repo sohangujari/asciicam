@@ -10,7 +10,7 @@ export const useAsciiEngine = () => {
     if (!width || !height) return;
 
     const aspectRatio = width / height;
-    const rows = Math.floor((columns * 0.55) / aspectRatio);
+    const rows = Math.floor((columns * 0.65) / aspectRatio);
 
     if (canvas.width !== columns || canvas.height !== rows) {
       canvas.width = columns;

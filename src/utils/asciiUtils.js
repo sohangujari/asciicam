@@ -1,4 +1,4 @@
-export const ASCII_CHARS = '@#S%?*+;:,. ';
+export const ASCII_CHARS = " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$";
 
 export const getLuminance = (r, g, b) => {
   return (r * 0.299 + g * 0.587 + b * 0.114);

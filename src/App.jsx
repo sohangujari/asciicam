@@ -6,7 +6,7 @@ import { ErrorState } from './components/ErrorState';
 import { useCamera } from './hooks/useCamera';
 
 export default function App() {
-  const [density, setDensity] = useState(100);
+  const [density, setDensity] = useState(150);
   const [colorMode, setColorMode] = useState('Terminal');
   const [isMirrored, setIsMirrored] = useState(true);
   const [isPaused, setIsPaused] = useState(false);
